@@ -28,7 +28,7 @@ body {
 
 .top-bar
 {
-  /* width: 1420px; */
+  width: 1420px;
     height: 47px;
     top: 17px;
     left: 35px;
@@ -38,7 +38,7 @@ body {
 }
 
 header{
-  /* width: 1512px; */
+  width: 1512px;
     height: 84px;
     top: -5px;
     gap: 0px;
