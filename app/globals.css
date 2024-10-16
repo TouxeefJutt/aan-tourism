@@ -28,22 +28,19 @@ body {
 
 .top-bar
 {
-  width: 1420px;
+  /* width: 1420px; */
     height: 47px;
     top: 17px;
     left: 35px;
-    /* gap: 0px; */
-    /* opacity: 0px;s */
 }
 
 header{
-  width: 1512px;
+  /* width: 1512px; */
     height: 84px;
     top: -5px;
-    /* gap: 0px; */
-    /* opacity: 0px; */
     background-color: #18546E;
 }
+
 .menu-item
 {
   font-family: Poppins;
@@ -52,4 +49,65 @@ header{
     line-height: 18.48px;
     text-align: left;
     color: white
+}
+
+.hero-text
+{
+font-family: Arial;
+  font-size: 25.71px;
+  font-weight: 700;
+  line-height: 31.6px;
+  text-align: left;
+  width: 1059.24px;
+    height: 30.09px;
+    top: 98px;
+    left: 107px;
+}
+.image-size
+{
+  height: 129px !important;
+}
+
+.cover-image
+{
+  height: 410px !important;
+}
+.icon-size
+{
+  height: 24px !important;
+  width: 24px !important;
+}
+
+.about-activity
+{
+  box-shadow: 0.88px 1.77px 8.4px 4.42px #00000014;
+}
+
+.about-text
+{
+  font-family: Inter;
+    font-size: 21.94px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.about-desc
+{
+font-family: Inter;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #63687A;
+}
+
+.about-heading
+{
+font-family: Inter;
+  font-size: 14.38px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #1A2B49;
 }
