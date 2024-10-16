@@ -32,17 +32,17 @@ body {
     height: 47px;
     top: 17px;
     left: 35px;
-    gap: 0px;
-    opacity: 0px;
-    background-color: #18546E;
+    /* gap: 0px; */
+    /* opacity: 0px;s */
 }
 
 header{
   width: 1512px;
     height: 84px;
     top: -5px;
-    gap: 0px;
-    opacity: 0px;
+    /* gap: 0px; */
+    /* opacity: 0px; */
+    background-color: #18546E;
 }
 .menu-item
 {
@@ -51,4 +51,5 @@ header{
     font-weight: 500;
     line-height: 18.48px;
     text-align: left;
+    color: white
 }

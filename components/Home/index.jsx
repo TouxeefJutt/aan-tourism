@@ -9,9 +9,9 @@ export default function index() {
         <div className="top-bar flex justify-between">
           {/* <Image alt="logo"> </Image> */}
           <Image src={logo} alt="logo" width={129} height={47} />
-          <ul className='flex items-center text-white'>
+          <ul className='flex items-center'>
             <li>
-            <h5>
+            <h5 className='menu-item'>
               Top Selling
             </h5>
             </li>
