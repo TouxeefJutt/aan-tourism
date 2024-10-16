@@ -14,7 +14,10 @@ import icon3 from '/public/images/icon3.png'; // Direct path from the public fol
 import icon4 from '/public/images/icon4.png'; // Direct path from the public folder
 import icon5 from '/public/images/icon5.png'; // Direct path from the public folder
 import desertImage from '/public/images/desert.png'; // Direct path from the public folder
+import calenderImage from '/public/images/calender.png'; // Direct path from the public folder
+import personImage from '/public/images/person.png'; // Direct path from the public folder
 import lineBreak from '/public/images/lineBreak.png'; // Direct path from the public folder
+import tickImage from '/public/images/tick.png'; // Direct path from the public folder
 
 export default function index() {
   return (
@@ -107,7 +110,7 @@ export default function index() {
               <div className=" pl-2 pr-1 w-[42%]">
                 <h3 className="expl-heading">Camel Ride,Shows,Dinner</h3>
                 <Image src={starsIcons} alt="image" width={94} height={15} />
-                <ul className="marker:text-gray-600 list-disc pl-6">
+                <ul className="list-disc pl-6">
                   <li>
                     <h5 className="expl-desc pt-3">
                       Get yourself tickets to the award-winning Dubai Frame –
@@ -195,7 +198,9 @@ export default function index() {
                   <h5 className="price-desc">Starting from</h5>
                   <h3 className="price"> AED 69.00</h3>
                 </div>
-                <button className='btn w-full py-1 mt-4'><h5 className='btn-text'>Check Availability</h5></button>
+                <button className="btn w-full py-1 mt-4">
+                  <h5 className="btn-text">Check Availability</h5>
+                </button>
               </div>
             </div>
             <div className="flex my-5 mx-1 py-5 px-2 hero-expl">
@@ -205,7 +210,7 @@ export default function index() {
               <div className=" pl-2 pr-1 w-[42%]">
                 <h3 className="expl-heading">Camel Ride,Shows,Dinner</h3>
                 <Image src={starsIcons} alt="image" width={94} height={15} />
-                <ul className="marker:text-gray-600 list-disc pl-6">
+                <ul className="list-disc pl-6">
                   <li>
                     <h5 className="expl-desc pt-3">
                       Get yourself tickets to the award-winning Dubai Frame –
@@ -293,7 +298,9 @@ export default function index() {
                   <h5 className="price-desc">Starting from</h5>
                   <h3 className="price"> AED 69.00</h3>
                 </div>
-                <button className='btn w-full py-1 mt-4'><h5 className='btn-text'>Check Availability</h5></button>
+                <button className="btn w-full py-1 mt-4">
+                  <h5 className="btn-text">Check Availability</h5>
+                </button>
               </div>
             </div>
           </div>
@@ -375,6 +382,80 @@ export default function index() {
                   </div>
                 </li>
               </ul>
+            </div>
+            <div className="mt-3 pb-5 date-time px-3">
+              <div className="pt-5 px-2">
+                <h5 className="price-desc">Starting from</h5>
+                <h3 className="price"> AED 69.00</h3>
+              </div>
+              <div className="mr-3">
+                <button className="btn w-full py-1 mt-6">
+                  <h5 className="btn-text">Check Availability</h5>
+                </button>
+              </div>
+              <div className="ml-3 pt-4">
+                <h5 className="dt-sub-heading">Select Date and Travelers</h5>
+                <button className="w-full dt-btn mt-4 flex items-center">
+                  <Image
+                    className="calender-icon mx-4"
+                    src={calenderImage}
+                    alt="icon"
+                    width={0}
+                    height={0}
+                  />
+                  <p className="date flex items-center">
+                    Thursday, Dec 7, 2023
+                  </p>
+                </button>
+                <button className="w-full py-2 dt-btn mt-4 flex items-center">
+                  <Image
+                    className="person-icon mx-4"
+                    src={personImage}
+                    alt="icon"
+                    width={0}
+                    height={0}
+                  />
+                  <p className="date flex items-center">
+                    2 Adults, 0 Child, 0 Infant
+                  </p>
+                </button>
+              </div>
+              <div className="pt-6 mr-4 flex gap-3">
+                <Image
+                  className="tick-icon"
+                  src={tickImage}
+                  alt="icon"
+                  width={0}
+                  height={0}
+                />
+                <p>
+                  <span className="color-span">Free cancellation </span>
+                  <span className="reg-span">
+                    up to 24 hours before the experience starts (local time)
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="why-us mt-3 pl-4 pt-4 pr-1">
+              <h2 className="why-us-heading">Why Travel with us?</h2>
+              <ul className="list-disc pl-5 py-6">
+                <li className="why-us-item">
+                  Trusted platform used by 100K+ people, each month
+                </li>
+                <li className="why-us-item">
+                  Get the lowest prices and last minute availability
+                </li>
+                <li className="why-us-item">
+                  Discover and connect with 10,000+ experiences
+                </li>
+                <li className="why-us-item">
+                  Browse verified reviews and professional photographs
+                </li>
+                <li className="why-us-item">
+                  Have a question? Live chat with our experts 24/7
+                </li>
+              </ul>
+            
             </div>
           </div>
         </div>
