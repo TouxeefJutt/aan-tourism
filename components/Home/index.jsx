@@ -234,7 +234,7 @@ export default function index() {
                   </li>
                 </ul>
               </div>
-              <div>
+              {/* <div>
                 <Image
                   className=""
                   src={lineBreak}
@@ -242,7 +242,7 @@ export default function index() {
                   width={0}
                   height={0}
                 />
-              </div>
+              </div> */}
               <div className="w-[29%] pl-5">
                 <ul className="flex flex-col gap-2 py-2">
                   <li className="flex gap-2">
@@ -436,11 +436,11 @@ export default function index() {
                 </p>
               </div>
             </div>
-            <div className="why-us mt-3 pl-4 pt-4 pr-1">
+            <div className="why-us mt-3 pl-4 pt-6 pr-1">
               <h2 className="why-us-heading">Why Travel with us?</h2>
               <ul className="list-disc pl-5 py-6">
                 <li className="why-us-item">
-                  Trusted platform used by 100K+ people, each month
+                  Trusted platform used by 100K+ people, month
                 </li>
                 <li className="why-us-item">
                   Get the lowest prices and last minute availability
