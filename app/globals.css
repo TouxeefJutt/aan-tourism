@@ -111,3 +111,75 @@ font-family: Inter;
   text-align: left;
   color: #1A2B49;
 }
+
+.hero-expl
+{
+  border: 1px solid #CDCDCD
+}
+
+.expl-heading
+{
+font-family: Arial;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 31.6px;
+  text-align: left;
+  color: #000000;
+}
+
+.expl-desc
+{
+  font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.52px;
+    text-align: left;
+    color: #2E2E2E;;
+}
+
+.custom-marker {
+  --tw-marker-color: #2E2E2E;
+}
+
+.line-break
+{
+  border: 1px solid #B7B7B7
+}
+
+.price-desc
+{
+  font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.83px;
+    text-align: left;
+    color: #000000;
+}
+
+.price
+{
+  font-family: Arial;
+    font-size: 21.22px;
+    font-weight: 700;
+    line-height: 25.47px;
+    text-align: left;
+    color: #000000;
+}
+
+.btn
+{
+  background: #18546E;
+  border: 0.88px solid #18546E !important;
+    border-radius: 5px;
+   
+}
+
+.btn-text
+{
+  font-family: Arial;
+    font-size: 13.71px;
+    font-weight: 700;
+    line-height: 21.22px;
+    text-align: center;
+    color: #FFFFFF;
+}
